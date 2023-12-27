@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import './Sidebar.css'
 
+
 const Sidebar = () => {
 
     useEffect(() => {
@@ -30,8 +31,18 @@ const Sidebar = () => {
 
 
   return (
-    <div>
-      Sidebar
+    <div className='my-sidebar'>
+
+        
+      <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/c205108c93.js" crossorigin="anonymous"></script>
+      </head>
 
       <div class="sidebarToggler">
         <div class="icon">
@@ -47,7 +58,7 @@ const Sidebar = () => {
             <div class="avatar"></div>
             <div class="metaDetails">
                 <div class="myChannel">Your Channel</div>
-                <div class="myName">A youtube guy</div>
+                <div class="myName">Anti-drug Influencer</div>
             </div>
         </div>
         <div class="sidebarLinks">
@@ -75,7 +86,7 @@ const Sidebar = () => {
                     <div class="text">Videos</div>
                 </a>
             </div>
-            <div class="link">
+            {/* <div class="link">
                 <a href="javascript:void(0)">
                     <div class="icon">
                         <svg viewBox="0 0 24 24">
@@ -86,7 +97,7 @@ const Sidebar = () => {
                     </div>
                     <div class="text">Playlists</div>
                 </a>
-            </div>
+            </div> */}
             <div class="link">
                 <a href="javascript:void(0)">
                     <div class="icon">
@@ -99,7 +110,7 @@ const Sidebar = () => {
                     <div class="text">Analytics</div>
                 </a>
             </div>
-            <div class="link">
+            {/* <div class="link">
                 <a href="javascript:void(0)">
                     <div class="icon">
                         <svg viewBox="0 0 24 24">
@@ -110,8 +121,8 @@ const Sidebar = () => {
                     </div>
                     <div class="text">Comments</div>
                 </a>
-            </div>
-            <div class="link">
+            </div> */}
+            {/* <div class="link">
                 <a href="javascript:void(0)">
                     <div class="icon">
                         <svg viewBox="0 0 24 24">
@@ -122,7 +133,7 @@ const Sidebar = () => {
                     </div>
                     <div class="text">Subtitles</div>
                 </a>
-            </div>
+            </div> */}
             <div class="link">
                 <a href="javascript:void(0)">
                     <div class="icon">
@@ -144,12 +155,12 @@ const Sidebar = () => {
                             </g>
                         </svg>
                     </div>
-                    <div class="text">Audio Library</div>
+                    <div class="text">Copyright</div>
                 </a>
             </div>
         </div>
         <div class="sidebarBottom">
-            <div class="link">
+            {/* <div class="link">
                 <a href="javascript:void(0)">
                     <div class="icon">
                         <svg viewBox="0 0 24 24">
@@ -160,8 +171,8 @@ const Sidebar = () => {
                     </div>
                     <div class="text">Setting</div>
                 </a>
-            </div>
-            <div class="link">
+            </div> */}
+            {/* <div class="link">
                 <a href="javascript:void(0)">
                     <div class="icon">
                         <svg viewBox="0 0 24 24">
@@ -170,8 +181,11 @@ const Sidebar = () => {
                             </g>
                         </svg>
                     </div>
-                    <div class="text">Feedback</div>
+                    <div class="text">Feedback</div>                    
                 </a>
+            </div> */}
+            <div class="create">
+                <i className="fas fa-video" style={{paddingRight: '8px', color: 'red'}} ></i> CREATE
             </div>
         </div>
     </div>
