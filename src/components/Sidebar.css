@@ -121,11 +121,11 @@ body {
   }
   .link a.active {
     background-color: #f4f4f4;
-    color: #cc0101;
-    border-left: 3px solid #cc0101;
+    color: #0056D2;
+    border-left: 3px solid #0056D2;
   }
   .link a.active .icon {
-    color: #cc0101;
+    color: #0056D2;
   }
   
   .link a .text {
@@ -157,6 +157,6 @@ body {
   .create {
     display: flex;
     border: 1px solid lightgray;
-    padding: 5px;
+    padding: 8px 15px;
     margin-right: 20px;
   }
