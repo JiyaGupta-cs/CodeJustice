@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './Sidebar.css'
-
+import { Link } from 'react-router-dom'
 
 const Sidebar = () => {
 
@@ -64,7 +64,7 @@ const Sidebar = () => {
                 </div>
                 <div class="sidebarLinks">
                     <div class="link">
-                        <a href="javascript:void(0)" class="active">
+                        <Link to="/dashboard" class="active">
                             <div class="icon">
                                 <svg viewBox="0 0 24 24">
                                     <g>
@@ -73,10 +73,10 @@ const Sidebar = () => {
                                 </svg>
                             </div>
                             <div class="text">Dashboard</div>
-                        </a>
+                        </Link>
                     </div>
                     <div class="link">
-                        <a href="javascript:void(0)">
+                        <Link to='/' className='mylink'>
                             <div class="icon">
                                 <svg viewBox="0 0 24 24">
                                     <g>
@@ -85,10 +85,10 @@ const Sidebar = () => {
                                 </svg>
                             </div>
                             <div class="text">Videos</div>
-                        </a>
+                        </Link>
                     </div>
                     {/* <div class="link">
-                <a href="javascript:void(0)">
+                <Link to='/' className='mylink'>
                     <div class="icon">
                         <svg viewBox="0 0 24 24">
                             <g>
@@ -97,10 +97,10 @@ const Sidebar = () => {
                         </svg>
                     </div>
                     <div class="text">Playlists</div>
-                </a>
+                </Link>
             </div> */}
                     <div class="link">
-                        <a href="javascript:void(0)">
+                        <Link to='/' className='mylink'>
                             <div class="icon">
                                 <svg viewBox="0 0 24 24">
                                     <g>
@@ -109,10 +109,10 @@ const Sidebar = () => {
                                 </svg>
                             </div>
                             <div class="text">Analytics</div>
-                        </a>
+                        </Link>
                     </div>
                     {/* <div class="link">
-                <a href="javascript:void(0)">
+                <Link to='/' className='mylink'>
                     <div class="icon">
                         <svg viewBox="0 0 24 24">
                             <g>
@@ -121,10 +121,10 @@ const Sidebar = () => {
                         </svg>
                     </div>
                     <div class="text">Comments</div>
-                </a>
+                </Link>
             </div> */}
                     {/* <div class="link">
-                <a href="javascript:void(0)">
+                <Link to='/' className='mylink'>
                     <div class="icon">
                         <svg viewBox="0 0 24 24">
                             <g>
@@ -133,10 +133,10 @@ const Sidebar = () => {
                         </svg>
                     </div>
                     <div class="text">Subtitles</div>
-                </a>
+                </Link>
             </div> */}
                     <div class="link">
-                        <a href="javascript:void(0)">
+                        <Link to='/' className='mylink'>
                             <div class="icon">
                                 <svg viewBox="0 0 24 24">
                                     <g>
@@ -145,10 +145,10 @@ const Sidebar = () => {
                                 </svg>
                             </div>
                             <div class="text">Monetization</div>
-                        </a>
+                        </Link>
                     </div>
                     <div class="link">
-                        <a href="javascript:void(0)">
+                        <Link to='/' className='mylink'>
                             <div class="icon">
                                 <svg viewBox="0 0 24 24">
                                     <g>
@@ -157,12 +157,12 @@ const Sidebar = () => {
                                 </svg>
                             </div>
                             <div class="text">Copyright</div>
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div class="sidebarBottom">
                     {/* <div class="link">
-                <a href="javascript:void(0)">
+                <Link to='/' className='mylink'>
                     <div class="icon">
                         <svg viewBox="0 0 24 24">
                             <g>
@@ -171,10 +171,10 @@ const Sidebar = () => {
                         </svg>
                     </div>
                     <div class="text">Setting</div>
-                </a>
+                </Link>
             </div> */}
                     {/* <div class="link">
-                <a href="javascript:void(0)">
+                <Link to='/' className='mylink'>
                     <div class="icon">
                         <svg viewBox="0 0 24 24">
                             <g>
@@ -183,13 +183,13 @@ const Sidebar = () => {
                         </svg>
                     </div>
                     <div class="text">Feedback</div>                    
-                </a>
+                </Link>
             </div> */}
 
 
 
                     <div class="link">
-                        <a href="javascript:void(0)">
+                        <Link to='/create' className='mylink'>
                             <div class="icon">
 
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
@@ -202,15 +202,15 @@ const Sidebar = () => {
                                     <i className="fas fa-video" style={{ color: 'red' }} ></i> CREATE
                                 </div>
                             </div>
-                        </a>
+                        </Link>
                     </div>
 
 
                 </div>
             </div>
-            <div class="rightSection">
+            {/* <div class="rightSection">
                 Contents
-            </div>
+            </div> */}
 
 
             <script src="sidebar.js"></script>
