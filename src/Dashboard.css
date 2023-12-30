@@ -2,8 +2,8 @@
     background: #a370f0;
     color: white;
     font-family: inherit;
-    padding: 0.35em;
-    padding-left: 1.2em;
+    padding: 1.7em;
+    padding-left: 3em;
     font-size: 17px;
     font-weight: 500;
     border-radius: 0.9em;
@@ -15,7 +15,7 @@
     overflow: hidden;
     position: relative;
     height: 2.8em;
-    padding-right: 3.3em;
+    padding-right: 5em;
     cursor: pointer;
   }
   
@@ -27,7 +27,7 @@
     align-items: center;
     justify-content: center;
     height: 2.2em;
-    width: 2.2em;
+    width: 3.2em;
     border-radius: 0.7em;
     box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
     right: 0.3em;
@@ -51,4 +51,89 @@
   .cssbuttons-io-button:active .icon {
     transform: scale(0.95);
   }
+
   
+
+
+
+  .card {
+    background: #fff;
+    border-radius: 20px;
+    display: inline-block;
+    height: 65vh;
+    margin: 1rem;
+    position: relative;
+    width: 30vw;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .card-4 {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+
+  ul.timeline li
+{
+  position: relative;
+   height: 3em;
+  color: #4e0384;
+}
+
+ul.timeline li:before
+{
+    content: "";
+    display: inline-block;
+    height: 3em;
+    width: 1px;
+    background: #4e0384;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: -13px;
+    top: -0.4em;
+    z-index: 1;
+}
+
+ul.timeline:before
+{
+  content: "●";
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: -17px;
+  top: 0.1em;
+  color: #4e0384;
+}
+
+ul.timeline:after
+{
+  content: "●";
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: -17px;
+  top: -1em;
+  color: #4e0384;
+}
+
+.rightS {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* font-size: xx-large; */
+    color: #ccc;
+  }
+  .dashcards{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+  }

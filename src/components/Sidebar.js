@@ -144,7 +144,7 @@ const Sidebar = () => {
                                     </g>
                                 </svg>
                             </div>
-                            <div class="text">Monetization</div>
+                            <div class="text">Rewards</div>
                         </Link>
                     </div>
                     <div class="link">
@@ -188,7 +188,7 @@ const Sidebar = () => {
 
 
 
-                    <div class="link">
+                    <div  class="link">
                         <Link to='/create' className='mylink'>
                             <div class="icon">
 
@@ -197,9 +197,9 @@ const Sidebar = () => {
 </svg>
 
                             </div>
-                            <div class="text">
-                                <div class="create">
-                                    <i className="fas fa-video" style={{ color: 'red' }} ></i> CREATE
+                            <div  class="text">
+                                <div style={{backgroundColor:'#9264D9'}} class="create">
+                                    <i className="fas fa-video" style={{ color: 'red' }} ></i> <p> CREATE</p>
                                 </div>
                             </div>
                         </Link>
