@@ -1,0 +1,35 @@
+h1{
+    padding-top: 10px;
+    text-indent: 33%;
+}
+hr.solid {
+    border-top: 3px solid #bbb;
+}
+.videosNav {
+    display: flex;
+    justify-content: space-between;
+}
+.sepration1 {
+    display: flex;
+   text-indent: 3%;
+}
+.sepration2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#item {
+    margin: 20px; 
+  }
+
+#item:last-child {
+    margin-right: 020px; /* Remove margin-right on last item */
+}
+
+#item:first-child {
+   margin-left:10px;
+}
+.video1{
+    display: flex;
+    justify-content: space-between;
+}
