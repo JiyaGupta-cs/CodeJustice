@@ -56,8 +56,8 @@ const Sidebar = () => {
             </div>
             <div class="YoutubeSidebar">
                 <div class="sidebarHeader">
-                    <div class="avatar">
-                        <img src={profile}></img>
+                    <div class="avatar" >
+                        <img src={profile} style={{width:"124px",paddingLeft:"0px"}}></img>
                     </div>
                     <div class="metaDetails">
                         <div class="myChannel">Username</div>
