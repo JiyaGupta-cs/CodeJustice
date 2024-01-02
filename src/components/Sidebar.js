@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './Sidebar.css'
 import { Link } from 'react-router-dom'
-
+import profile from '../profile.png'
 const Sidebar = () => {
 
     useEffect(() => {
@@ -56,7 +56,9 @@ const Sidebar = () => {
             </div>
             <div class="YoutubeSidebar">
                 <div class="sidebarHeader">
-                    <div class="avatar"></div>
+                    <div class="avatar">
+                        <img src={profile}></img>
+                    </div>
                     <div class="metaDetails">
                         <div class="myChannel">Username</div>
                         <div class="myName">Anti-drug Influencer</div>
@@ -76,7 +78,7 @@ const Sidebar = () => {
                         </Link>
                     </div>
                     <div class="link">
-                        <Link to='/' className='mylink'>
+                        <Link to='/videos' className='mylink'>
                             <div class="icon">
                                 <svg viewBox="0 0 24 24">
                                     <g>
@@ -100,7 +102,7 @@ const Sidebar = () => {
                 </Link>
             </div> */}
                     <div class="link">
-                        <Link to='/' className='mylink'>
+                        <Link to='/analytics' className='mylink'>
                             <div class="icon">
                                 <svg viewBox="0 0 24 24">
                                     <g>

@@ -8,7 +8,7 @@ const Videos = () => {
         <Sidebar/>
     
 
-        <h1 id="channel">Your content</h1>
+        <h1 id="channel"style={{paddingTop:"30px"}}>Your content</h1>
 
         
         <hr class="solid"></hr>
