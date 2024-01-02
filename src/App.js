@@ -6,6 +6,8 @@ import Create from './components/Create';
 import Dashboard from './Dashboard';
 import Home from './components/Home';
 import SignUp from './SignUp';
+import Videos from './components/Videos'
+import Analytics from './components/Analytics'
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
           <Route path='/dashboard' element={<Dashboard/>} />
           <Route path='/create' element={<Create />} />
           <Route path='/signup' element={<SignUp />} />
+          <Route path='/Videos' element={<Videos />} />
+          <Route path='/Analytics' element={<Analytics />} />
           {/* <Route path=':productId' element={<Product />} /> */}
         </Routes>
       </BrowserRouter>
