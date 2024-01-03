@@ -1,0 +1,12 @@
+To achieve this, you can create a system that fetches information about a video when an influencer pastes the link. You can use libraries like BeautifulSoup for web scraping and APIs provided by platforms like YouTube for video information retrieval. Here's a simplified example using Python:
+
+
+
+This script fetches information about a YouTube video by scraping the HTML content of the video's link. However, keep in mind that web scraping might violate a platform's terms of service. It's recommended to use official APIs provided by platforms like YouTube to access video metadata.
+
+For YouTube, you can use the YouTube Data API to fetch video information such as view count and channel subscriber count. The code above provides a basic example using web scraping, but in a real-world scenario, you should use the official API for accurate and authorized access to video data.
+
+
+
+
+
